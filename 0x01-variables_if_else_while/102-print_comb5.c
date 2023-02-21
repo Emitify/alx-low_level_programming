@@ -14,6 +14,8 @@ int main(void)
 		{
 			if (i < j)
 			{
+				continue;
+			}
 				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
 				putchar(' ');
@@ -24,7 +26,6 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-			}
 		}
 	}
 	putchar('\n');
